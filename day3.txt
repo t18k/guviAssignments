@@ -1,0 +1,33 @@
+// 1.a) for loop
+let arr = [1, 2, 3, 4];
+for (let i = 0; i < arr.length; i++) console.log(arr[i]);
+
+// 1.b) for in loop
+let obj = {
+  name: "thiru",
+  age: 23,
+  degree: "B.E",
+  favorites: [5, 8, 11, 13],
+};
+for (i in obj) {
+  console.log(i + " " + obj[i]);
+}
+
+// 1.c) for of loop
+for (i of arr) {
+  console.log(i);
+}
+
+// 1.d) forEach
+arr.forEach((num) => console.log(num * 7));
+
+// 2) ---RESUME----
+let resume = {
+  "name": "thiru kumaran",
+  "email": "thirukumaran953@gmail.com",
+  "degree": "B.E",
+  "major": "computer science",
+  "programming": ["java", "javascript"],
+  "company": "kyndryl",
+  "role": "system administrator",
+};
